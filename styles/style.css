@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+.son01 {}
+
+.son02 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.father {
+    background-image: url('../media/Banner\ Image.png');
+    height: 600px;
+    width: 1320px;
+    position: static;
+    filter: brightness(70%);
+
+}
