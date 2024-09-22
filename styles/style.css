@@ -11,15 +11,572 @@
     width: 100%;
     text-align: center;
     font-size: 40px;
+    position: absolute;
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.1));
+    margin: 0px;
+    min-height: 600px;
+
+}
+
+
+.father {
+    background: url('../media/Banner\ Image.png') no-repeat;
+    margin-left: 140px;
+
+
+    position: relative;
+
+
+    height: 600px;
+    width: 1320px;
+    /* position: relative; */
 
 
 }
 
-.father {
-    background-image: url('../media/Banner\ Image.png');
-    height: 600px;
+
+
+/* main section started */
+/* off section  */
+.off-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.son-of-section>h1,
+h4 {
+    color: red;
+}
+
+.son-of-section>h1 {
+    margin-bottom: 45px;
+    font-size: 60px;
+}
+
+.son-of-section>h4 {
+    font-weight: lighter;
+}
+
+.son-of-section>h3 {
+    font-size: 25px;
+}
+
+/* <!-- party card section started --> */
+.party-section-father {
+    margin-left: 140px;
+    background-image: url("../media/Vectorrr.png");
+    background-repeat: no-repeat;
     width: 1320px;
-    position: static;
-    filter: brightness(70%);
+    height: 600px;
+    /* align-items: center; */
+
+}
+
+.party-son01>h1,
+p {
+    color: white;
+}
+
+.party-son01 {
+    position: relative;
+    margin: 120px auto auto 120px;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.party-son01>h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.party-son01 p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.817);
+
+}
+
+.party-join-button {
+    border: 0;
+    width: 103px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+
+
+
+/* vanue and time section started */
+.vanue-and-time {
+    width: 1320px;
+    height: 480px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1), transparent);
+    border-radius: 12px;
+    margin: 120px 140px;
+    /* box-shadow: 1px 10px; */
+
+
+}
+
+.son-of-vanue-section {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.vanue-text {
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.vanue-span {
+    color: red;
+}
+
+.vanue-btn {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    margin-top: 50px;
+    font-weight: bold;
+    /* letter-spacing: .1rem; */
+}
+
+/* vanue-and-time section finished */
+/* .comming-soon-section-father {
+    display: flex;
+    position: relative;
+    height: 463px;
+    width: 1320px;
+    margin: auto 140px;
+    justify-content: space-around;
+    background-color: chocolate;
+
+}
+
+.left-text {
+    color: black;
+    margin-left: 50px;
+}
+
+.left-text>p {
+    color: gray;
+}
+
+.right-text>p {
+    color: gray;
+}
+
+.right-text {
+    margin: 100px auto 0px 120px;
+    /* position: absolute; */
+/* position: relative; */
+
+
+
+
+/* #red-circle {
+    border-radius: 50%;
+    height: 463px;
+    width: 463px;
+    position: relative;
+    text-align: center;
+
+}
+
+.comming-soon-section-image {
+    /* position: relative; */
+/* text-align: center; */
+/* margin-right: -100px; */
+/* position: absolute; 
+
+
+}*/
+
+/* .firestick-photo {
+    position: absolute;
+    margin-left: -448px;
+    margin-top: 15px;
+    border: 35px solid white;
+    border-radius: 50%;
+
+
+
+
+} */
+
+/* .bottom-right-image {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 0px;
+} */
+
+/* .comming-soon-section-image {} */
+/* .coming-soon-container {
+    position: relative;
+    display: flex;
+    height: 463px;
+    width: 1320px;
+    margin: 120px 140px;
+    text-align: center; */
+/* justify-content: center; */
+/* align-items: center; */
+/* background-color: lightpink;
+}
+
+.left-text { */
+/* position: absolute; */
+
+
+
+/* .comming-soon-image-section { */
+/* position: absolute; */
+/* height: 463px;
+    width: 463px; */
+/* text-align: center; */
+
+
+/* .comming-soon-image-section>img {
+    border-radius: 50%;
+    height: 463px;
+    width: 463px;
+    margin-left: 136px;
+}
+
+.for-white-circle {
+    position: relative;
+    height: 444px;
+    width: 444px;
+    background-color: blue;
+    border-radius: 50%;
+    justify-content: center; */
+/* margin-bottom: 100px; */
+/* padding-bottom: 100px;
+}
+
+.Celibration {
+    width: 364px;
+    height: 364px;
+    position: absolute;
+
+} */
+.coming-soon-father {
+    display: flex;
+    position: relative;
+    margin: 120px 140px;
+    /* justify-content: space-around; */
+    /* align-items: center;
+    text-align: center; */
+    /* background-color: blueviolet; */
+    height: 463px;
+    width: 1320px;
+}
+
+.left-text {
+    position: absolute;
+    margin: 106px auto 106px 0;
+}
+
+.left-text>h3 {
+    color: red;
+    font-size: 18px;
+}
+
+.left-text h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.left-text p {
+    color: gray;
+    font-size: 20px;
+}
+
+.image-area {
+    position: absolute;
+    height: 100%;
+    width: 463px;
+    text-align: center;
+    margin-left: 32%;
+    align-items: center;
+}
+
+.red-circle {
+    border: 20px solid red;
+    border-radius: 50%;
+}
+
+.white-circle {
+    border: 30px solid white;
+    border-radius: 50%;
+}
+
+.right-side-text {
+    position: absolute;
+    /* position: relative; */
+    /* text-align: right; */
+    /* align-items: flex-end; */
+    margin-left: 74%;
+    margin-top: 100px;
+}
+
+.right-side-text>h1 {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 24px;
+
+}
+
+.right-side-text>p {
+    color: gray;
+    margin: 10px auto;
+    font-size: 20px;
+
+}
+
+.right-side-image>img {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    /* margin-bottom: -20px; */
+    margin-top: 30px;
+}
+
+/* coming soon section css end  */
+
+/* holiday sale section started */
+.holiday-father {
+    width: 1320px;
+    height: 986px;
+    position: relative;
+    /* background-color: cornflowerblue; */
+    margin-left: 140px;
+
+}
+
+.holiday-upper-text {
+    /* position: absolute; */
+    margin-top: 0;
+    text-align: center;
+}
+
+.holiday-upper-text h4 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.holiday-upper-text h1 {
+    color: black;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -3px;
+
+}
+
+.holiday-upper-text span {
+    color: red;
+}
+
+.holiday-upper-text p {
+    /* color: gray; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+
+/* holiday text section css finished */
+
+
+
+.top-right-image-container {
+    text-align: right;
+    /* display: inline-flex; */
+    margin: 30px auto 10px;
+
+}
+
+.women {
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.discount {
+    position: absolute;
+    /* text-align: right; */
+    /* align-content: center; */
+    /* content: icon; */
+    margin-top: -27.3%;
+    /* margin-right: -50%; */
+    margin-left: 55%;
+}
+
+.bottom-image-section {
+    position: relative;
+}
+
+.red-line {
+    position: relative;
+}
+
+.surprise-box {
+    margin-top: -50%;
+    position: absolute;
+    height: 674px;
+    width: 577px;
+
+
+}
+
+/* holiday .discount section end */
+
+/* awesome portfolio section started  */
+
+.awesome-portfolio-father {
+    position: relative;
+    width: 1320px;
+    height: 1163px;
+    /* background-color: rgb(110, 141, 183); */
+    margin: 100px 140px 120px;
+}
+
+.awesome-portfolio-text {
+    margin-top: 2px;
+}
+
+.awesome-portfolio-text h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.awesome-portfolio-text h1 {
+    font-size: 47px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -10px;
+}
+
+.awesome-portfolio-text p {
+    /* color: gray; */
+    margin-top: -5px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* text section end  */
+.portfolio-images {
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0px;
+
+}
+
+.products {
+    /* margin-left: 24px; */
+    width: 417px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* awesome portfolio section css end  */
+
+/* subscribe section css start  */
+.subscribe-section-father {
+    height: auto;
+    width: 1320px;
+    position: relative;
+    background-color: rgb(250, 237, 240);
+    /* align-items: center; */
+    text-align: center;
+    margin-left: 140px;
+    border-radius: 8px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-section h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin-top: -2px; */
+
+}
+
+.text-section p {
+    color: gray;
+    font-size: 18px;
+    font-weight: ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -2px;
+
+}
+
+.button-area {
+    margin-top: 60px;
+    margin-left: -199px;
+}
+
+/* btn&gmail-area */
+#gmail-area {
+    width: 440px;
+    height: 72px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: rgb(254, 252, 252);
+    margin-right: 0;
+    border: 0px;
+    padding-left: 30px;
+    font-size: 20px;
+    /* color: blue; */
+
+}
+
+.sub-btn {
+    height: 74px;
+    width: 210px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -2px;
+    background-color: red;
+    color: white;
+    border: 0;
+    margin-bottom: 1em;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+/* ahh at last i finished the main section  */
+
+/* footer section started  */
+footer {
+    /* color: black; */
+    background-color: black;
+    width: 1600px;
+    position: relative;
+}
+
+.upper-text {
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    /* margin-top: 120px; */
+    padding-top: 120px;
+    margin-left: 140px;
+}
+
+.top-right-text {
+    display: flex;
 
 }
